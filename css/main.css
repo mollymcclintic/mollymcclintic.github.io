@@ -186,21 +186,6 @@ h3 {
     height: auto;
     margin: 5px 0 0 0;
 }
-/*.text{ 
-    width:33%; 
-    height:auto; 
-    background:#FFF; 
-    opacity:0; 
-}*/
-
-/*.pics:hover .text { 
-    opacity:0.6; 
-    text-align:justify;
-    color:#000000; 
-    font-size:20px; font-weight:700;
-    font-family: 'Lato', sans-serif;
-}
-*/
 
 footer {
     clear: both;
