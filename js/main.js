@@ -1,8 +1,15 @@
-// When user hovers over anything with the class .pics, add a hover state 
-  // add a css class to all the <a> tags
-
-// When user clicks on main slider banner with the class .fancybox clearfix, scroll images in a carousel
-  // ?? 
-  // Need to figure out how to do this - unrelated, this isn't pseudo code
-
-  
+// // Do it when someone clicks a nav link
+// $('nav a').on('click', function(e) {
+//   // prevent the standard link operation on click
+//   e.preventDefault();
+//   // use the href of the link to identify what
+//   // section to scroll to
+//   var thisTarget = $(this).attr('href');
+//   // get that section's top offset
+//   var targetOffset = $(thisTarget).offset().top;
+//   // use jQuery.animate() to animate the body's
+//   // scrollTop to the targetOffest
+//   $('body').animate({
+//     scrollTop: targetOffset
+//   }, 600);
+// });
