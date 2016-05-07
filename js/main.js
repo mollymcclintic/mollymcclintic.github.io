@@ -13,3 +13,10 @@
 //     scrollTop: targetOffset
 //   }, 600);
 // });
+
+// Add in Fonts 
+  @font-face {
+  font-family: <Averta>;
+  src: url("../fonts/Averta-Black") format("opentype");
+}
+
