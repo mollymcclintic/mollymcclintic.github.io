@@ -96,18 +96,38 @@ textarea {
 /*  * {
     box-sizing: border-box;
     border: 1px solid red; 
+}*/
+
+.main-nav{
+    float: right;
+    width: 50%;
 }
-*/
-li {
+.main-nav ul{
+    list-style: none;
+    width: 100%;
+}
+.main-nav ul li{
+    float: left;
+    display: inline;
+    width: 25%;
+    padding: 0 5px;
+}
+
+.main-nav ul li a{
+    display: block;
+    font-size: 14px;
     font-family: 'Lato', sans-serif;
-    font-size: 16px;
-    display:inline-block;
-    float:right;
-    padding: 10px;
-    margin: auto;
+    color: #383B3C;
+    text-align: center;
     text-transform: uppercase;
     text-decoration: none;
-    color: #383BC3;
+    font-weight: bold;
+    padding: 16px 0;
+} 
+.main-nav ul li a:hover{
+    background: #383B3C;
+    color: white;
+    font-weight:normal;
 }
 
 .blurb {
@@ -116,28 +136,14 @@ li {
     text-align: center;
 }
 
-.nav-bar {
- opacity: 0.4;
- }
-
-.shipping {
-    font-family: 'Fjalla One', sans-serif;
-    font-size: 16px;
-    padding: 10px;
-}
-
 .pics {
     width: 33%;
     height: auto;
 }
 
-.hover figure img {
-    opacity: 1;
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
-}
-.hover figure:hover img {
-    opacity: .5;
+.pug {
+    width:100%;
+    height: auto;
 }
 
 footer {
