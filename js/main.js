@@ -15,8 +15,8 @@
 // });
 
 // Add in Fonts 
-  @font-face {
-  font-family: <Averta>;
-  src: url("../fonts/Averta-Black") format("opentype");
-}
+//   @font-face {
+//   font-family: <Averta>;
+//   src: url("../fonts/Averta-Black") format("opentype");
+// }
 

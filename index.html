@@ -15,7 +15,8 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
-       
+        <link href="css/lightbox.min.css" rel="stylesheet">
+      
 
 
         <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Fjalla+One' rel='stylesheet' type='text/css'>
@@ -52,67 +53,92 @@
                 </nav>
             </header>
 
-        <hr>
+        
 
-             <div class="col-md-12 banner">
-              <a><img src="img/pug.jpeg" class="pug" alt="this is a pic of a pug "/></a>
-             </div>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+          </ol>
 
-        <hr>
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="img/banner_1.png" alt="Jenna">
+            </div>
+
+            <div class="item">
+              <img src="img/banner_2.png" alt="RISE">
+            </div>
+
+            <div class="item">
+              <img src="img/banner_3.png" alt="Palm Springs">
+            </div>
+
+            <div class="item">
+              <img src="img/banner_4.png" alt="San Juan Island">
+            </div>
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+
+       
 
             <div class="col-md-12 blurb">
-                <h3>Bacon ipsum dolor amet tongue strip steak tri-tip, corned beef flank cupim chuck short ribs salami. Bresaola fatback porchetta pork filet mignon tail rump leberkas. Cow porchetta tongue tenderloin capicola, pastrami spare ribs shoulder kielbasa tri-tip alcatra ball tip rump.</h3></div>
+                <h3 id="main">Bacon ipsum dolor amet tongue strip steak tri-tip, corned beef flank cupim chuck short ribs salami. Bresaola fatback porchetta pork filet mignon tail rump leberkas. Cow porchetta tongue tenderloin capicola, pastrami spare ribs shoulder kielbasa tri-tip alcatra ball tip rump.</h3></div>
 
 
-          <hr> 
-
+       
             <div class="col-md-12 hawaii">
 
-            <a href="#" class="wrapper">
-                <span class="text">
+
+            <a href="hawaii.html" class="wrapper">
+                <span class="text" alt="Hawaii">
                     Oahu, Hawaii
                 </span>
-                <img src="img/snow.jpeg">
+                <img src="img/hawaii_1.png">
             </a>
 
-                        <a href="#" class="wrapper">
-                <span class="text">
+                        <a href="palmsprings.html" class="wrapper">
+                <span class="text" alt="Palm Springs">
                     Palm Springs
                 </span>
-                <img src="img/walrus.jpeg">
+                <img src="img/palm_springs_1.png">
             </a>
 
-                        <a href="#" class="wrapper">
-                <span class="text">
+                        <a href="sanjuanislands.html" class="wrapper">
+                <span class="text" alt="San Juan Islands">
                     San Juan Islands
                 </span>
-                <img src="img/pug.jpeg">
+                <img src="img/san_juan_islands_one.png">
             </a>
 
 
-
-<!--             <a><img src="img/hawaii_eight_wide_small.jpg" class="pics" alt="Hawaii photo one"/>
-            </a>
-
-            <a><img src="img/calithree.jpeg" class="pics" alt="Hawaii photo two"/>
-            </a>
-
-            <a><img src="img/califour.jpeg" class="pics" alt="Hawaii photo three"/>
-            </a> -->
-    
-          <hr>
+      
 
             <div class="col-md-12 blurb">
-                <h3>Bacon ipsum dolor amet tongue strip steak tri-tip, corned beef flank cupim chuck short ribs salami. Bresaola fatback porchetta pork filet mignon tail rump leberkas. Cow porchetta tongue tenderloin capicola, pastrami spare ribs shoulder kielbasa tri-tip alcatra ball tip rump.</h3></div>
+                <h3 id="main">Bacon ipsum dolor amet tongue strip steak tri-tip, corned beef flank cupim chuck short ribs salami. Bresaola fatback porchetta pork filet mignon tail rump leberkas. Cow porchetta tongue tenderloin capicola, pastrami spare ribs shoulder kielbasa tri-tip alcatra ball tip rump.</h3></div>
 
-            <hr>
+        
 
             </div>
            
             
     
 
-            <footer class="footer"> </footer>
+            <footer class="footer clearfix"> </footer>
        
 
         <!-- <script src="js/jquery-2.1.3.min.js"></script> -->
@@ -124,6 +150,7 @@
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 
+            <script src="js/lightbox.min.js"></script>
             <script src="js/bootstrap.js"></script>
 
 
