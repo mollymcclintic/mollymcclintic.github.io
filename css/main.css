@@ -146,7 +146,7 @@ body {
 }
 
 .carousel {
-    max-width: 1000px;
+    max-width: 100%;
     margin: 50px auto;
 }
 
@@ -285,6 +285,15 @@ img {
     text-align: center;
 }
 
+.banner{
+}
+
+.bus{
+    height: 60vh;
+    background-image: url("../img/bus_one.jpg");
+    background-size: cover;
+}
+
 footer {
     clear: both;
 }
@@ -314,19 +323,154 @@ footer {
 }
 
 /*hawaii.html styles*/
-#main-oahu {
-    font-family: "Fjalla One",sans-serif; 
+.row {
+    margin-bottom: 10vh;
 }
-
-.hawaii-picture1 {
-    background-image: url("../img/more_hawaii_12_wide.jpg");
+.picture4 {
+    background-image: url("../img/hi1.png");
     background-size: cover;
     background-repeat: no-repeat;
-
 }
 
-/*palmsprings.html styles*/
+.picture5 {
+    background-image: url("../img/hi2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
+.picture6 {
+    background-image: url("../img/hi3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.picture7 {
+    background-image: url("../img/hi4.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.picture8 {
+    background-image: url("../img/hi5.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.picture9 {
+    background-image: url("../img/hi6.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.picture10 {
+    background-image: url("../img/hi7.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.picture11 {
+    background-image: url("../img/hi8.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.picture12 {
+    background-image: url("../img/hi9.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.picture13 {
+    background-image: url("../img/hi10.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.picture14 {
+    background-image: url("../img/hi11.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.picture15 {
+    background-image: url("../img/hi13.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/*palmsprings.html styles*/
+.picture16 {
+    background-image: url("../img/ps1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.picture17 {
+    background-image: url("../img/ps2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.picture18 {
+    background-image: url("../img/ps3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.picture19 {
+    background-image: url("../img/ps4.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.picture20 {
+    background-image: url("../img/ps6.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.picture21 {
+    background-image: url("../img/ps8.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.picture22 {
+    background-image: url("../img/ps7.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.picture23 {
+    background-image: url("../img/ps12.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.picture24 {
+    background-image: url("../img/ps9.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.picture25 {
+    background-image: url("../img/ps10.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.picture26 {
+    background-image: url("../img/ps11.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.picture27 {
+    background-image: url("../img/ps5.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 /*sanjuanislands.html styles*/
 
