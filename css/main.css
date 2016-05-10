@@ -157,8 +157,13 @@ body {
 }
 
 #main {
-    font-size: 14px;
+    font-size: 20px;
         padding: 0px 10vw 0px 10vw;
+}
+
+#main2 {
+    font-size: 16px;
+
 }
 
 .wrapper {
@@ -276,16 +281,12 @@ img {
 
 .bus{
     height: 60vh;
-    background-image: url("../img/bus_one.jpg");
+    background-image: url("../img/banner22.png");
     background-size: cover;
     background-position: bottom;
 }
 
 /*nextstop.html styles*/
-
-footer {
-    clear: both;
-}
 
 
 .picture1 {
@@ -317,8 +318,12 @@ footer {
 }
 .picture4 {
     background-image: url("../img/hi1.png");
-    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .picture5 {
@@ -328,9 +333,13 @@ footer {
 }
 
 .picture6 {
-    background-image: url("../img/hi3.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+background-image: url("../img/hi3.png");
+ background-repeat: no-repeat;
+ background-position: center center;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
 }
 
 .picture7 {
@@ -347,14 +356,19 @@ footer {
 
 .picture9 {
     background-image: url("../img/hi6.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+background-repeat: no-repeat;
+background-position: center center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
 }
 
 .picture10 {
     background-image: url("../img/hi7.png");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: bottom;
 }
 
 .picture11 {
@@ -461,15 +475,109 @@ footer {
     background-repeat: no-repeat;
 }
 
+
+
 /*sanjuanislands.html styles*/
+.picture28 {
+    background-image: url("../img/sji1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.picture29 {
+    background-image: url("../img/sji2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.picture30 {
+    background-image: url("../img/sji3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.picture31 {
+    background-image: url("../img/sji4.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.picture32 {
+    background-image: url("../img/sji5.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.picture33 {
+    background-image: url("../img/sji6.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.picture34 {
+    background-image: url("../img/sji7.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.picture35 {
+    background-image: url("../img/sji8.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.picture36 {
+    background-image: url("../img/sji9.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.picture37 {
+    background-image: url("../img/sji10.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.picture38 {
+    background-image: url("../img/sji11.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.picture39 {
+    background-image: url("../img/sji12.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 /*Footer styles */
 footer {
-    font-family: 'Lato', sans-serif;
+    clear:both;
+    width: 100%;
+    height: 80px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../images/footerimage.jpg');
 }
 
-li{
-    display: inline-block;
+.footer-links {
+  padding: 0;
+  margin: 40px 0 0 0;
+}
+
+.footer-links li {
+  margin: 0 20px;
+  list-style: none;
+  display: inline-block;
+}
+
+.footer-links img {
+  width: 40px;
+  height: 40px;
+  margin-top: 30px;
 }
 /*Media queries*/
 
