@@ -28,3 +28,14 @@ $('.hamburger').on('click', function(e) {
   // If menu is already showing, slide it up. Otherwise, slide it down.
   $('.menu').toggleClass('slide-down');
 });
+
+// Bus driving across screen
+
+$(document).ready(function(e) {
+    width = "+=" + $(document).width();
+    $("#animate").animate({
+    left: width
+  }, 5000, function() {
+    // Animation complete.
+  });
+});

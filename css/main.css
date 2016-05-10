@@ -288,6 +288,10 @@ img {
 
 /*nextstop.html styles*/
 
+#animate {
+    position: relative;
+}
+
 
 .picture1 {
     background-image: url("../img/hawaii_1.png");
