@@ -20,22 +20,36 @@
 //   src: url("../fonts/Averta-Black") format("opentype");
 // }
 
-// Hamburger Nav info 
+// Logo Nav info 
+  //When the screen is >1300px, and the user clicks on the logo, prevent it from going back to index.html
+  //Also, .togglecLass so when the user clicks on the logo, the nav opens and closes
+$('.logo').on('click', function (e) {
+    e.preventDefault();
+  $('.mobile-nav').toggleClass('displayed');
 
-$('.hamburger').on('click', function(e) {
-  // Prevent link from jumping to the top of the page
-  e.preventDefault();
-  // If menu is already showing, slide it up. Otherwise, slide it down.
-  $('.menu').toggleClass('slide-down');
+  
 });
 
-// Bus driving across screen
+//Animate the bus to the width of the screen
 
-$(document).ready(function(e) {
-    width = "+=" + $(document).width();
-    $("#animate").animate({
-    left: width
-  }, 5000, function() {
-    // Animation complete.
-  });
+  $(document).ready(function(e) {
+    var width = $(document).width() - $('#animate-img').width();
+//Send bus across the screen to the right
+    function goRight() {
+        $("#animate").animate({
+        left: width
+      }, 5000, function() {
+         setTimeout(goLeft, 50);
+      });
+    }
+    //Send bus across the screen to the left
+    function goLeft() {
+        $("#animate").animate({
+        left: 0
+      }, 5000, function() {
+         setTimeout(goRight, 50);
+      });
+    }
+
+    setTimeout(goRight, 50);
 });
