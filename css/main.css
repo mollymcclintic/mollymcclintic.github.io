@@ -624,17 +624,29 @@ footer {
      }
 
      .mobile-nav {
-        background-color: #383B3C;
         font-family: 'Lato', sans-serif;
+        background-color: white;
+        padding: 15px 0px 0px 5px;
+        margin: 2% 0 0px 20%;
+
      }
 
      .mobile-nav ul li a {
         text-align: center;
         text-transform: uppercase;
         text-decoration: none;
-        color: white;
+        color: #383B3C;
+        padding: 2px;
+
 
      }
+
+     .mobile-nav ul{
+        list-style-type: none;
+        padding: 0;
+        margin-left: 0;
+        text-align: center;
+    }
 
 }
   @media only screen and (max-width: 1200px) {
@@ -653,6 +665,30 @@ footer {
         -webkit-transform:translate(-107px);
             -ms-transform:translate(-107px);
                 transform:translate(-107px);
+    }
+         .mobile-nav {
+        font-family: 'Lato', sans-serif;
+        background-color: white;
+        padding: 15px 0px 0px 5px;
+        margin: 2% 0 0px 29%;
+
+     }
+
+     .mobile-nav ul li a {
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #383B3C;
+        padding: 2px;
+
+
+     }
+
+     .mobile-nav ul{
+        list-style-type: none;
+        padding: 0;
+        margin-left: 0;
+        text-align: center;
     }
 }
 
