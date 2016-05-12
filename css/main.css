@@ -170,7 +170,7 @@ body {
 }
 
 #main {
-    font-size: 400%;
+    font-size: 4vw;
     padding: 0px 10vw 0px 10vw;
     color: #383B3C;
     font-weight: bold;
@@ -670,7 +670,7 @@ footer {
         font-family: 'Lato', sans-serif;
         background-color: white;
         padding: 15px 0px 0px 5px;
-        margin: 2% 0 0px 29%;
+        margin: 2% 0 0px 13%;
 
      }
 
